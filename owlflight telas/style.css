@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400&display=swap');
 
 html, body{
     margin: 0;
@@ -29,6 +30,7 @@ nav{
 .marca{
     display: flex;
     align-items: center;
+    width: fit-content;
 }
 .coruja{
     width: 5.3125rem;
@@ -266,3 +268,28 @@ p{
     display: flex;
     width: fit-content;
 }
+
+/*                        F O R M U L A R I O       I N P U T             */
+
+/*                       F O O T E R                */
+
+#marca{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+hr{
+    width: 100%;
+    border-color:#08244C;
+}
+
+#slogan{
+    color: #08244C;
+font-family: DM Sans;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+
+}
+
