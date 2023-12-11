@@ -287,9 +287,45 @@ hr{
 #slogan{
     color: #08244C;
 font-family: DM Sans;
-font-size: 1.5rem;
+font-size: 1.2rem;
 font-style: normal;
 font-weight: 400;
 
 }
 
+h6{
+    color: #08244C;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: DM Sans;
+font-size: 0.9rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.25rem; /* 68.966% */
+margin: 0%;
+margin-bottom: 0.8rem;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0rem 0rem 0.5rem 1rem;
+
+}
+
+.footer-tag{
+    display: table-column;
+    text-align: center;
+}
+
+.footer-tag p{
+    margin-bottom: 0.5rem;
+    color: #08244C;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: DM Sans;
+font-size: 0.9em;
+font-style: normal;
+font-weight: 400;
+line-height: 1.25rem; /* 68.966% */
+}
