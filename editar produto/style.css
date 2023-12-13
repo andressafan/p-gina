@@ -421,3 +421,8 @@ line-height: 1.25rem; /* 68.966% */
     width: 2rem;
     height: 2rem;
 }
+
+#group-cards{
+    display: flex;
+    gap: 0.5rem;
+}
